@@ -1,0 +1,17 @@
+font-famaly
+    lato: medium,bold,reguler,semibold
+    roboto: reguler,medium
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+
+
+
+color:
+    s: #8e8e8e;
+    black: #333333;
+    
+
+
+header dis:
+xxl/xl/lg   md/     sm/col

@@ -1,0 +1,282 @@
+/* font link start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* common start */
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+/* common end */
+
+/* header start */
+header{
+    padding: 10px 0;
+   
+}
+.logo{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.menu ul li a{
+   margin: 0 10px ;
+    text-transform: uppercase;
+   
+}
+
+.menu ul li a:hover{
+    color: #333333;
+}
+
+
+.btn-search{
+    border: none;
+}
+.btn-search i{
+    color: #8e8e8e;
+}
+.btn-search i:hover{
+    color: #333333;
+}
+
+
+.btn-search::after{
+    display: none;
+}
+
+.dpm{
+    width: 350px;
+}
+
+
+.dpm[data-bs-popper] {
+    top: 60px;
+    left: -275px;
+    margin-top: 0;
+    padding: 10px 5px;
+    border-radius: 0;
+}
+
+.s_input{
+    width: 100%;
+    height: 45px;
+    border: 0;
+}
+
+.s_btn{
+    width: 100%;
+    height: 45px;
+    border: 0;
+    background: none;
+}
+
+.s_input:focus {
+    
+    box-shadow: none;
+}
+
+
+/* header end */
+/* slider start */
+.slider{
+    background-image: url("images/Nipro-Agency.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* min-height: 300px; */
+
+}
+.s_item{
+    color:aliceblue;
+}
+ .s_h1{
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+ 
+.s_p{
+    margin: 30px 0 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.s_item{
+    margin: 200px 0 210px;
+    
+}
+
+.s_item a{
+    color: #000000;
+    
+}
+
+.c_btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 10px;
+
+}
+
+.c_btn span {
+    margin-left: 8px;
+    font-size: 14px;
+   
+}
+
+
+.c_btn:hover{
+    color: #945959;
+    background-color: #ffffff;
+}
+.all_but{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+
+.Prev{
+    border: none;
+    color: #8e8e8e;
+}
+
+.Next{
+    border: none;
+}
+
+/* service start */
+.service{
+    margin-bottom: 95px;
+}
+.c_title{}
+.c_arrow{
+    width: 2px;
+    height: 50px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.ct_h1{
+    margin: 25px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}
+.se_p {
+    padding: 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    line-height: 25px;
+}
+
+.sv_item{
+    margin-top: 70px;
+    padding: 77px 15px 30px;
+    border: 1px solid #8e8e8e;
+    text-align: center;
+   
+}
+
+.sv_icon{
+    margin: -99px auto 0;
+    width: 65px;
+    background-color: #ffffff;
+}
+
+.sv_icon i{
+    /* margin-bottom: 25px; */
+    font-size: 60px;
+    color: #8e8e8e;
+}
+
+.sv_h2{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.sv_hr{
+    width: 50px;
+    margin: 10px auto 20px;
+    border-top: 2px solid black;
+}
+
+.sv_p {
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sv_a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8e8e8e;
+}
+
+
+.sv_a span {
+    margin: 0 0px 0 7px;
+    font-size: 15px;
+}
+
+/* about start */
+.about{
+    padding: 0 0 100px
+}
+.ab_img{}
+.ab_img img{
+    margin-bottom: 30px;
+}
+
+.ab_text{}
+
+.ab_text h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+
+
+
+
+.ab_text p{
+    margin: 40px 0 40px;
+    line-height: 30px;
+}
+.ab_btn{
+    padding: 10px 30px;
+    border: 1px solid #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

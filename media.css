@@ -1,0 +1,347 @@
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+
+/* header start */
+
+header {
+    padding: 0 0;
+   
+}
+.logo {
+    font-size: 27px;
+}
+
+
+
+.menu ul li a {
+    margin: -4px 0px;
+   
+}
+
+/* .dpm[data-bs-popper] {
+    top: -22px;
+    left: 123px;
+    
+} */
+
+.dpm[data-bs-popper] {
+    top: 50px;
+    left: -11px;
+    padding: 5px 5px;
+    
+}
+.dpm {
+    width: 317px;
+}
+
+/* slider start */
+.s_h1 {
+    font-size: 27px;
+}
+
+.s_p {
+    margin: 15px 0px 15px 0;
+}
+.s_item {
+    margin: 80px 0 80px;
+}
+
+.c_btn {
+    
+    padding: 7px 12px;
+}
+/* service start */
+
+.service {
+    margin-bottom: 50px;
+}
+.c_arrow {
+   
+    height: 40px;
+   
+}
+
+.ct_h1 {
+    margin: 15px 0 15px;
+    font-size: 20px;
+   
+    
+}
+
+.sv_item {
+    margin-top: 50px;
+    padding: 78px 34px 15px;
+    
+}
+.sv_h2 {
+    margin-top: 10px; 
+}
+
+.sv_p {
+    margin-bottom: 10px;
+}
+
+.sv_icon i {
+    
+    font-size: 55px;
+   
+}
+
+.sv_hr {
+    
+    margin: 10px auto 10px;
+    
+}
+/* about start */
+.about {
+    padding: 0 0 50px;
+}
+
+
+.ab_text h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ab_text p {
+    margin: 10px 0 19px;
+    line-height: 23px;
+}
+
+
+
+
+.ab_btn {
+    padding: 5px 20px;
+    margin-left: 75px;
+}
+
+ }
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+/* header start */
+
+header {
+    padding: 5px 0;
+   
+}
+.menu ul li a {
+    margin: -2px 0px;
+    text-transform: uppercase;
+}
+
+
+.dpm[data-bs-popper] {
+    top: -22px;
+    left: 123px;
+    padding: 5px 5px;
+    
+}
+.dpm {
+    width: 300px;
+}
+
+/* slider start */
+.s_h1 {
+    font-size: 33px;
+}
+
+.s_p {
+    margin: 25px 157px 25px 0;
+}
+.s_item {
+    margin: 120px 0 110px;
+}
+
+.c_btn {
+    
+    padding: 7px 12px;
+}
+/* service start */
+
+.service {
+    margin-bottom: 50px;
+}
+.c_arrow {
+   
+    height: 40px;
+   
+}
+
+.ct_h1 {
+    margin: 15px 0 15px;
+    font-size: 25px;
+   
+    
+}
+
+.sv_item {
+    margin-top: 50px;
+    padding: 78px 34px 15px;
+    
+}
+.sv_h2 {
+    margin-top: 20px; 
+}
+
+.sv_p {
+    margin-bottom: 15px;
+}
+/* about start */
+.ab_text h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ab_text p {
+    margin: 10px 0 19px;
+    line-height: 20px;
+}
+
+
+
+
+.ab_btn {
+    padding: 5px 20px;
+    margin-left: 191px;
+}
+
+ }
+
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* header start */
+
+header {
+    padding: 5px 0;
+   
+}
+.menu ul li a {
+    margin: -2px 0px;
+    text-transform: uppercase;
+}
+
+
+.dpm[data-bs-popper] {
+    top: -22px;
+    left: 123px;
+    padding: 5px 5px;
+    
+}
+.dpm {
+    width: 300px;
+}
+/* slider start */
+.s_h1 {
+    font-size: 42px;
+   
+}
+
+.s_p {
+    margin: 25px 216px 25px 0;
+    
+}
+.s_item {
+    margin: 120px 0 110px;
+}
+
+/* service start */
+.service {
+    margin-bottom: 50px;
+}
+
+.ct_h1 {
+    font-size: 27px;
+    
+}
+.c_arrow {
+    height: 45px;
+   
+}
+.sv_item {
+    margin-top: 50px;
+    padding: 78px 34px 15px;
+    
+}
+.sv_h2 {
+    margin-top: 20px; 
+}
+
+.sv_p {
+    margin-bottom: 15px;
+}
+/* about start */
+.ab_text h1 {
+    
+    font-size: 20px;
+    
+}
+
+.ab_text p {
+    margin: 3px 0 10px;
+    line-height: 16px;
+}
+
+.ab_btn {
+    padding: 5px 20px;
+    
+}
+ }
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* service start */
+
+.ct_h1 {
+    font-size: 27px;
+    
+}
+.c_arrow {
+    height: 45px;
+   
+}
+/* about start */
+.ab_text h1 {
+    
+    font-size: 27px;
+    
+}
+
+.ab_text p {
+    margin: 15px 0 15px;
+    line-height: 23px;
+}
+ }
+
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/* about start */
+.ab_text p {
+    margin: 35px 0 35px;
+    line-height: 26px;
+}
+
+
+
+ }
+
+
+
+ /* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
